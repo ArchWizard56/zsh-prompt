@@ -32,7 +32,6 @@ else
     VIM_PROMPT="[% NORMAL]% "
     RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/} $(git_custom_status) $EPS1"
     PROMPT="%m::%~ %#> "
-
 fi
     zle reset-prompt
 }
